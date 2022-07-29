@@ -22,3 +22,4 @@ pub(super) mod mexc;
 pub(super) mod okx;
 pub(super) mod zb;
 pub(super) mod zbg;
+mod blockchain;

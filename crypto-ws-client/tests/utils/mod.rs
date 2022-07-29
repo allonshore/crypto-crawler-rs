@@ -11,6 +11,7 @@ macro_rules! gen_test_code {
 
         let mut messages = Vec::<String>::new();
         for msg in rx {
+            println!("{}",msg);
             messages.push(msg);
             break;
         }
